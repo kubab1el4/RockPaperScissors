@@ -1,0 +1,25 @@
+body{
+    display:flex;
+    margin:0px;
+    background-color: black;
+    flex-direction:column;
+}
+.sec{
+    color:bisque;
+    display:inline-flex;
+    align-self: center;
+}
+.main{
+    display:flex;
+    flex: 1 0 80vh;
+    justify-content: space-around;
+}
+.header{
+    display:flex;
+    flex: 1 0 10vh;
+}
+.footer{
+    display:flex;
+    flex: 1 0 10vh;
+    background-color: blueviolet;
+}
